@@ -56,3 +56,15 @@ Our *ACOD-12K* can be found in [Huggingface](https://huggingface.co/datasets/Kki
 - Results of our RISNet can be found in [Google Drive](https://drive.google.com/file/d/1A_F1dCKDtGrs1XJg_xLXOGZSIx4fn11O/view?usp=drive_link) and [Baidu Drive(85oa)](https://pan.baidu.com/s/1EY41aZN6PmAM6RFqVK2Www?pwd=85oa).
 - Our well-trained model can be found in [Google Drive](https://drive.google.com/file/d/1SNuzMz2CFHEfCYwcpwic1jgeR7kS6rsG/view?usp=drive_link) and [Baidu Drive(9jw8)](https://pan.baidu.com/s/1JSfmjTTVeKNHcXMDBCApPg?pwd=9jw8).
 
+## Citation
+
+If you find RISNet useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@inproceedings{wang2024depth,
+  title={Depth-Aware Concealed Crop Detection in Dense Agricultural Scenes},
+  author={Wang, Liqiong and Yang, Jinyu and Zhang, Yanfu and Wang, Fangyi and Zheng, Feng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17201--17211},
+  year={2024}
+}
+```
