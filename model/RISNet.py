@@ -226,12 +226,12 @@ class RISNet(nn.Module):
         super(RISNet, self).__init__()
 
         self.backbone = pvt_v2_b2()  # [64, 128, 320, 512]
-        path = 'your pretrained model path'
-        save_model = torch.load(path)
-        model_dict = self.backbone.state_dict()
-        state_dict = {k: v for k, v in save_model.items() if k in model_dict.keys()}
-        model_dict.update(state_dict)
-        self.backbone.load_state_dict(model_dict)
+       # path = 'your pretrained model path'
+       # save_model = torch.load(path)
+       # model_dict = self.backbone.state_dict()
+       # state_dict = {k: v for k, v in save_model.items() if k in model_dict.keys()}
+       # model_dict.update(state_dict)
+       # self.backbone.load_state_dict(model_dict)
 
         self.iteration = iteration
 

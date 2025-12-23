@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Conda
+*.conda
+*.egg-info/
+
+# Results & logs
+results/
+assets/
+*.log
+
+# Datasets
+data/
+datasets/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# OS
+.DS_Store
